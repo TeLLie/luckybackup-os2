@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="nl" sourcelanguage="en">
+<TS version="2.0" language="nl" sourcelanguage="en">
 <context>
     <name>CalcDiffThread</name>
     <message>
@@ -76,11 +76,11 @@
     <message>
         <location line="+1"/>
         <source>These will be transferred over at the source during RESTORE</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit wordt overschreven in de bronmap tijdens HERSTEL</translation>
     </message>
     <message>
         <source>These will be transfered over at the source during RESTORE</source>
-        <translation type="vanished">Dit wordt overschreven in de bronmap tijdens HERSTEL</translation>
+        <translation>Dit wordt overschreven in de bronmap tijdens HERSTEL</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -346,7 +346,7 @@
     <message>
         <location line="+2"/>
         <source>command:   </source>
-        <translation>opdracht</translation>
+        <translation>opdracht:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -521,19 +521,19 @@
     <message>
         <location filename="../src/readLogFile.cpp" line="+56"/>
         <source>Could not locate the logfile</source>
-        <translation type="unfinished"></translation>
+        <translation>Fout bij het vinden van logbestand</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Could not open the logfile</source>
-        <translation type="unfinished">Kon het logbestand niet openen</translation>
+        <translation>Kon het logbestand niet openen</translation>
     </message>
 </context>
 <context>
     <name>aboutDialog</name>
     <message>
         <source>using Qt4</source>
-        <translation type="vanished">gebaseerd op Qt4</translation>
+        <translation>gebaseerd op Qt4</translation>
     </message>
     <message>
         <location filename="../src/about.cpp" line="+67"/>
@@ -614,7 +614,7 @@
     <message>
         <location line="+1"/>
         <source>for developing the wonderful transifex localization platform and providing it for free</source>
-        <translation>voor het ontwikkelen en vrij beschikbaar maken van het schitterende transifex lokalisatieplatform.</translation>
+        <translation>voor het ontwikkelen en vrij beschikbaar maken van het schitterende transifex lokalisatieplatform</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -669,7 +669,7 @@
     <message>
         <location line="+2"/>
         <source>loh.tar</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -832,12 +832,12 @@
     <message>
         <location line="-144"/>
         <source>using Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>gebaseerd op Qt</translation>
     </message>
     <message>
         <location line="+122"/>
         <source>António Correia</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -904,12 +904,12 @@
     <message>
         <location line="+2"/>
         <source>Angelescu Constantin</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Romanian gui reviewer &amp; translator</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+20"/>
@@ -924,7 +924,7 @@
     <message>
         <location line="+9"/>
         <source>Marcos Lans</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -954,7 +954,7 @@
     <message>
         <location line="+1"/>
         <source>If it wasn&apos;t him and his tutorials I would never have started this project</source>
-        <translation>Als het niet door hem en zijn tutorials kwam, zou ik nooit aan dit project begonnen zijn.</translation>
+        <translation>Als het niet door hem en zijn tutorials kwam, zou ik nooit aan dit project begonnen zijn</translation>
     </message>
     <message>
         <location line="+62"/>
@@ -1045,7 +1045,7 @@
     </message>
     <message>
         <source>Manuel Meixide</source>
-        <translation type="vanished">Manuel Meixide</translation>
+        <translation>Manuel Meixide</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1075,17 +1075,17 @@
     <message>
         <location line="+2"/>
         <source>Axel Rousseau</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Esperanto gui translator</source>
-        <translation type="unfinished"></translation>
+        <translation>Esperanto GUI-vertaler</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Omar Anwar</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1145,7 +1145,7 @@
     <message>
         <location line="+1"/>
         <source>that contributed to this project one way or another</source>
-        <translation>die op één of andere manier bijgedragen hebben aan dit project.</translation>
+        <translation>die op één of andere manier bijgedragen hebben aan dit project</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1155,7 +1155,7 @@
     <message>
         <location line="+12"/>
         <source>Could not locate the license file</source>
-        <translation>Kon het licentiebestand niet vinden.</translation>
+        <translation>Kan het licentiebestand niet vinden</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1263,7 +1263,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/about.cpp" line="-268"/>
         <source>luckyBackup is distributed under the terms of the &lt;a href=&quot;http://www.gnu.org/copyleft/gpl.html&quot; target=&quot;_blank&quot;&gt;GNU General Public License&lt;/a&gt;</source>
         <comment>Please leave the tags &lt;a href=&quot;http://www.gnu.org/copyleft/gpl.html&quot; target=&quot;_blank&quot;&gt; &amp; &lt;/a&gt; intact and surrounding the GNU General Public License !!</comment>
-        <translation>luckyBackup wordt gedistribueerd onder de voorwaarden van de &lt;a href=&quot;http://www.gnu.org/copyleft/gpl.html&quot; target=&quot;_blank&quot;&gt;GNU General Public License&lt;/a&gt;.</translation>
+        <translation>luckyBackup wordt gedistribueerd onder de voorwaarden van de &lt;a href=&quot;http://www.gnu.org/copyleft/gpl.html&quot; target=&quot;_blank&quot;&gt;GNU General Public License&lt;/a&gt;</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1325,7 +1325,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+26"/>
         <source>...my other half, &lt;b&gt;Dimitra&lt;/b&gt; that bears with me all these times that this project is under development</source>
-        <translation>...mijn betere helft, &lt;b&gt;Dimitra&lt;/b&gt; die het met mij heeft volgehouden al die tijd dat dit project al duurt.</translation>
+        <translation>...mijn betere helft, &lt;b&gt;Dimitra&lt;/b&gt; die het met mij heeft volgehouden al die tijd dat dit project al duurt</translation>
     </message>
 </context>
 <context>
@@ -1421,7 +1421,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+10"/>
         <source>%s subject:</source>
-        <translation>%c onderwerp</translation>
+        <translation>%c onderwerp:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1431,7 +1431,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+10"/>
         <source>%v smtp server:</source>
-        <translation>%v SMTP-server</translation>
+        <translation>%v SMTP-server:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1701,7 +1701,7 @@ p, li { white-space: pre-wrap; }
         <location line="-219"/>
         <source>execution of profile:</source>
         <comment>tray message - execution of profile: &lt;PROFILENAME&gt; in progress...</comment>
-        <translation>profiel</translation>
+        <translation>profiel:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1769,7 +1769,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location line="+13"/>
         <source>Total files transferred</source>
-        <translation type="unfinished"></translation>
+        <translation>Aantal verzonden bestanden</translation>
     </message>
     <message>
         <location line="+174"/>
@@ -2037,7 +2037,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <source>Especially check &apos;Task name&apos;, &apos;source&apos;, &apos;destination&apos; &amp; &apos;skip newer destination files&apos; checkbox (advanced)</source>
         <comment>&apos;create restore&apos; message line 4/4</comment>
-        <translation type="vanished">Controleer in het bijzonder de keuzevakjes &apos;taaknaam&apos;, &apos;bronmap&apos;, &apos;bestemmingsmap&apos; en &apos;nieuwere bestemmingsbestanden overslaan&apos; (knop &apos;Geavanceeerd&apos;)</translation>
+        <translation>Controleer in het bijzonder de keuzevakjes &apos;taaknaam&apos;, &apos;bronmap&apos;, &apos;bestemmingsmap&apos; en &apos;nieuwere bestemmingsbestanden overslaan&apos; (knop &apos;Geavanceeerd&apos;)</translation>
     </message>
     <message>
         <location filename="../src/functions.cpp" line="+86"/>
@@ -2740,7 +2740,7 @@ Full phrase: Removing old snapshots and logfiles of task: &lt;TASKNAME&gt;</comm
     </message>
     <message>
         <source>Total files transfered</source>
-        <translation type="vanished">Aantal verzonden bestanden</translation>
+        <translation>Aantal verzonden bestanden</translation>
     </message>
     <message>
         <location line="+96"/>
@@ -3027,7 +3027,7 @@ Full phrase: Removing old snapshots and logfiles of task: &lt;TASKNAME&gt;</comm
         <location line="-74"/>
         <source>could not be saved</source>
         <comment>Information window message. Full phrase: &apos;(default) profile &lt;PROFILENAME&gt; could not be saved&apos;</comment>
-        <translation>kon niet worden opgeslagen.</translation>
+        <translation>kon niet worden opgeslagen</translation>
     </message>
     <message>
         <location line="+66"/>
@@ -3039,7 +3039,7 @@ Full phrase: Removing old snapshots and logfiles of task: &lt;TASKNAME&gt;</comm
         <location line="+3"/>
         <source>could not be created</source>
         <comment>Information window message. Full phrase: &apos;(default) profile &lt;PROFILENAME&gt; could not be created&apos;</comment>
-        <translation>kon niet worden aangemaakt.</translation>
+        <translation>kon niet worden aangemaakt</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -3051,7 +3051,7 @@ Full phrase: Removing old snapshots and logfiles of task: &lt;TASKNAME&gt;</comm
         <location line="+1"/>
         <source>is modified</source>
         <comment>Question dialog message. Full phrase: &apos;profile &lt;PROFILENAME&gt; is modified&apos;</comment>
-        <translation>is gewijzigd.</translation>
+        <translation>is gewijzigd</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -3063,7 +3063,7 @@ Full phrase: Removing old snapshots and logfiles of task: &lt;TASKNAME&gt;</comm
         <location line="+0"/>
         <source>could not be saved</source>
         <comment>Question dialog message. Full phrase: &apos;profile &lt;PROFILENAME&gt; could not be saved&apos;</comment>
-        <translation>kon niet worden opgeslagen.</translation>
+        <translation>kon niet worden opgeslagen</translation>
     </message>
     <message>
         <location line="-32"/>
@@ -3715,7 +3715,7 @@ en apparaten kopiëren via de &apos;--devices&apos;-optie.
     <message>
         <source>Try to backup open files in windows systems using vss (Only works on windows 2000 and upper)
 (--vss)</source>
-        <translation type="vanished">Probeer geopende bestanden op Windows-systemen te backuppen met vss (alleen op Windows 2000 en hoger)
+        <translation>Probeer geopende bestanden op Windows-systemen te backuppen met vss (alleen op Windows 2000 en hoger)
 (-vss)</translation>
     </message>
     <message>
@@ -3726,7 +3726,7 @@ en apparaten kopiëren via de &apos;--devices&apos;-optie.
     <message>
         <source>Restore backed-up windows permissions localized in nt-streams 
 (--restore-nt-streams)</source>
-        <translation type="vanished">Herstel gebackupte Windows-permissies aanwezig in NT-streams
+        <translation>Herstel gebackupte Windows-permissies aanwezig in NT-streams
 (--restore-nt-streams)</translation>
     </message>
     <message>
@@ -4371,7 +4371,7 @@ Normally used when &quot;Execute Before&quot; commands can fix a warning (eg mou
 ATTENTION: check this if you really know what you&apos;re doing</source>
         <translation>De taak uitvoeren ook al verschijnt er een WAARSCHUWING.
 Normaliter gebruikt wanneer &apos;vooraf uitvoeren&apos;-opdrachten een waarschuwing kunnen herstellen (bv. aankoppelen van partities)
-LET OP: vink dit alleen aan als je echt weet wat je doet!</translation>
+LET OP: vink dit alleen aan als je echt weet wat je doet</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -4441,7 +4441,7 @@ LET OP: vink dit alleen aan als je echt weet wat je doet!</translation>
     <message>
         <source>ERROR</source>
         <comment>message box message</comment>
-        <translation type="vanished">FOUT</translation>
+        <translation>FOUT</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -4452,7 +4452,7 @@ LET OP: vink dit alleen aan als je echt weet wat je doet!</translation>
     <message>
         <source>ERROR</source>
         <comment>message box message - line1</comment>
-        <translation type="vanished">FOUT</translation>
+        <translation>FOUT</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -4523,7 +4523,7 @@ LET OP: vink dit alleen aan als je echt weet wat je doet!</translation>
     <message>
         <source>WARNING</source>
         <comment>message box message - line1</comment>
-        <translation type="vanished">WAARSCHUWING</translation>
+        <translation>WAARSCHUWING</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -4735,14 +4735,15 @@ Eigenaar en permissies van de data worden NIET bewaard.
         <location line="+81"/>
         <source>Try to backup open files in windows systems using vss (Only works on windows 2003 and upper)
 (--vss)</source>
-        <translation type="unfinished">Probeer geopende bestanden op Windows-systemen te backuppen met vss (alleen op Windows 2000 en hoger)
-(-vss) {2003 ?}</translation>
+        <translation>Probeer geopende bestanden op Windows-systemen te backuppen met vss (alleen op Windows 2003 en hoger)
+(-vss)</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Restore backed-up windows permissions which are located in the NTFS Security Descriptor Stream 
 (--restore-nt-streams)</source>
-        <translation type="unfinished"></translation>
+        <translation>Herstel gebackupte Windows-permissies aanwezig in NT-streams
+(--restore-nt-streams)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -4805,7 +4806,7 @@ Eigenaar en permissies van de data worden NIET bewaard.
         <source>Check this to use the directory above as an absolute path
 if unchecked, the pattern will match any file/directory that meets the &quot;name&quot; criteria</source>
         <translation>Vink dit aan om bovenstaande map te gebruiken als absoluut pad.
-Indien niet aangevinkt, staat het patroon voor elk bestand/map die voldoet aan de naamcriteria.</translation>
+Indien niet aangevinkt, staat het patroon voor elk bestand/map die voldoet aan de naamcriteria</translation>
     </message>
     <message>
         <location line="+171"/>
