@@ -674,7 +674,7 @@
     <message>
         <location line="+1"/>
         <source>Code contributor for important fixes, structure improvement and port to Qt5</source>
-        <translation type="unfinished"></translation>
+        <translation>Code bijdrage voor belangrijke fixes, structuurverbetering en de poort naar Qt5</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2396,7 +2396,7 @@ p, li { white-space: pre-wrap; }
         <location line="+149"/>
         <source>Please check &apos;Task name&apos;, &apos;source&apos;, &apos;destination&apos; and especially the &apos;Delete files on the destination&apos;&apos; &amp; &apos;skip newer destination files&apos; check-boxes (advanced)</source>
         <comment>&apos;create restore&apos; message line 4/4</comment>
-        <translation type="unfinished"></translation>
+        <translation>Controleer in het bijzonder de keuzevakjes &apos;taaknaam&apos;, &apos;bronmap&apos;, &apos;bestemmingsmap&apos; en &apos;nieuwere bestemmingsbestanden overslaan&apos; (knop &apos;Geavanceeerd&apos;)</translation>
     </message>
     <message>
         <location line="+73"/>
