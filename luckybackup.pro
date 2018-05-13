@@ -12,33 +12,36 @@ lessThan(QT_MAJOR_VERSION, 4) {
 
 QMAKE_STRIP = echo
 
-VERSION = 0.4.9
+#VERSION = 0.4.9
 
-target.path = /usr/bin
+target.path =/@unixroot/usr/bin
 TARGET = luckybackup
 
-menu.path = /usr/share/applications
-menu.files = menu/luckybackup.desktop menu/luckybackup-kde-su.desktop menu/luckybackup-gnome-su.desktop
+#menu.path = /@unixroot/usr/share/applications
+#menu.files = menu/luckybackup.desktop menu/luckybackup-kde-su.desktop menu/luckybackup-gnome-su.desktop
 
-debianmenu.path = /usr/share/menu
-debianmenu.files = menu/luckybackup
+#debianmenu.path = /usr/share/menu
+#debianmenu.files = menu/luckybackup
 
-pixmap.path = /usr/share/pixmaps
-pixmap.files = menu/luckybackup.xpm menu/luckybackup.png
+#pixmap.path = /@unixroot/usr/share/pixmaps
+#pixmap.files = menu/luckybackup.xpm menu/luckybackup.png
 
-documentation.path = /usr/share/doc/luckybackup
-documentation.files = manual
+#documentation.path = /usr/share/doc/luckybackup
+#documentation.files = manual
 
-manpage.path = /usr/share/man/man8
+manpage.path = /@unixroot/usr/share/man/man8
 manpage.files = manpage/luckybackup.8.gz
 
-translations.path = /usr/share/luckybackup
+translations.path = /@unixroot/usr/bin
 translations.files = translations
 
-license.path = /usr/share/doc/luckybackup
-license.files = license
+#license.path = /@unixroot/usr/share/doc/luckybackup
+#license.files = license
 
-INSTALLS += target menu debianmenu pixmap documentation manpage translations license
+INSTALLS += target manpage translations 
+#INSTALLS += target pixmap documentation manpage translations license
+#INSTALLS += menu debianmenu pixmap documentation manpage translations license
+#INSTALLS += translations
 
 system(gzip -c manpage/luckybackup.8 > manpage/luckybackup.8.gz)
 QMAKE_CLEAN = Makefile $${TARGET} manpage/luckybackup.8.gz
@@ -84,7 +87,11 @@ win32 {
 macx {
      message( "You are running OSX" )
  }
- 
+
+os2 {
+    message( "You are running OS2" )
+}
+
 HEADERS	= src/operationClass.h \
     src/luckybackupwindow.h \
     src/modifyDialog.h \
@@ -162,7 +169,7 @@ TRANSLATIONS = translations/luckybackup_ara.ts \
     translations/luckybackup_de.ts \
     translations/luckybackup_el.ts \
     translations/luckybackup_it.ts \
-    translations/luckybackup_ja_JP.ts \
+#   translations/luckybackup_ja_JP.ts \
     translations/luckybackup_no.ts \
     translations/luckybackup_pl.ts \
     translations/luckybackup_pt_BR.ts \
